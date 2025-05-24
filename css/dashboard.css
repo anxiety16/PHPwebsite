@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #004B3C;
+    color: #ffffff;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.nav-link {
+    color: white !important;
+}
+.dashboard-content {
+    padding: 40px 20px;
+    background-color: #004B3C;
+}
+.welcome-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.btn-login, .btn-logout {
+    background-color: #ffffff;
+    color: #004B3C;
+    padding: 8px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.btn-login:hover, .btn-logout:hover {
+    background-color: #e0e0e0;
+}
+.btn-shop {
+background-color: #ffffff;
+color: #004B3C;
+padding: 12px 25px;
+font-weight: 600;
+border-radius: 8px;
+transition: 0.3s;
+}
+.btn-shop:hover {
+background-color: #e0e0e0;
+}

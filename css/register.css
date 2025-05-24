@@ -1,0 +1,25 @@
+body {
+    background-color: #004B3C;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .register-box {
+    background-color: #ffffff;
+    color: #004B3C;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 600px;
+  }
+  .btn-register {
+    background-color: #004B3C;
+    color: #fff;
+    font-weight: 600;
+  }
+  .btn-register:hover {
+    background-color: #006F59;
+  }

@@ -38,3 +38,12 @@ function validateForm() {
 
     return true;
 }
+function validateForm() {
+    var pw = document.getElementById("password").value;
+    var cpw = document.getElementById("confirm_password").value;
+    if (pw !== cpw) {
+      alert("Passwords do not match.");
+      return false;
+    }
+    return true;
+  }
